@@ -1,0 +1,30 @@
+{
+  "name": "cynops",
+  "version": "1.0.0",
+  "description": "API for HIT Student Mgmnt System",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gillmourtunhira/cynox.git"
+  },
+  "keywords": [
+    "api",
+    "hit",
+    "student",
+    "system"
+  ],
+  "author": "Gillmour Tunhira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gillmourtunhira/cynox/issues"
+  },
+  "homepage": "https://github.com/gillmourtunhira/cynox#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20"
+  }
+}
