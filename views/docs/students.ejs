@@ -2,6 +2,18 @@
 
     <div class="content">
         <h3>Students</h3>
+        <div>
+             <% if(students.length > 0) { %>
+                <ul>
+                    <li><% students.forEach(student => { %>
+                            <h4>Name: <%= student.name %> </h4>
+                        <% }); %>
+                    </li>
+                </ul> 
+            <% }  else {  %>
+                <h4>No Student Records</h4>
+            <% } %>
+        </div>
     </div>
     
 <%- include('../partials/footer.ejs') %> 
